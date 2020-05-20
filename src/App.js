@@ -1,26 +1,53 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import PromptAndDetails from "./PromptAndDetails";
+import cards from './CardsData'
+import "./App.css";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      prompt: cards[0].prompt,
+      details: cards[0].details,
+    };
+  }
+  RandomCard() {
+    const randomNumber = Math.floor(Math.random() * cards.length);
+    return cards[randomNumber];
+
+  }
+  shuffleCards(array){
+    return array.sort(()=>Math.random()-0.5)
+  }
+
+  handleClick = () => {
+    const generateRandomCard = this.RandomCard();
+    this.setState({
+      prompt: generateRandomCard.prompt,
+      details: generateRandomCard.details
+    });
+    this.shuffleCards(cards)
+  };
+
+  randomColor() {
+    const color = `rgb(
+      ${Math.floor(Math.random() * 155)},
+      ${Math.floor(Math.random() * 155)},
+      ${Math.floor(Math.random() * 155)})`;
+    return color;
+  }
+
+  render() {
+    return (
+      <div>
+        <PromptAndDetails
+          displayColor={this.randomColor}
+          handleClick={this.handleClick}
+          {...this.state}
+        />
+      </div>
+    );
+  }
 }
 
 export default App;
