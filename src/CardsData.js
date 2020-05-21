@@ -71,6 +71,21 @@ const cards=[
   }, {
   "prompt": "Is it accessible?",
   "details": "Think about who might not be able to use it. Could you make some changes so that it works for more people?"
+  }, {
+  "prompt": "What if it allowed you to reflect on your decisions?",
+  "details": "Does it already provide an opportunity for reflection? Could it?"
+  }, {
+  "prompt": "Reflect on learning something new. ",
+  "details": "What was easy? What was hard?"
+  }, {
+  "prompt": "What if it helped people see themselves in new ways?",
+  "details": "Help others learn and grown by expanding the ways that they see themselves."
+  }, {
+  "prompt": "Write your answers to the next question before sharing them aloud.",
+  "details": "Before answering the next question, take a few moments to jot down your thoughts."
+  }, {
+  "prompt": "What would Oprah have to say about it?",
+  "details": "“When you undervalue what you do, the world will undervalue who you are.” – Oprah Winfrey"
   }
 ]
 export default cards
