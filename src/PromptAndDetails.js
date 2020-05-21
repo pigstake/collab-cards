@@ -26,6 +26,21 @@ class PromptAndDetails extends React.Component {
             - ask to understand
             - speak to each other with respect
             Lastly, we recommend that you take turns doing the flipping. This will give quieter voices a chance to enter the conversation and newer voices a chance to lead.
+            <p>
+              Inspired by www.trytriggers.com, Collab Cards are designed to provoke thought and highlight core values during your meeting at TeachersPayTeachers. You can use them to widen your view, to narrow your concept, to expand your perspective, or to challenge your norms. Or just to break the ice.
+            </p>
+            <p>
+              These cards have been intentionally designed to incorporate TpT values. In line we these values, we'd like to remind you to:
+            </p>
+            <ul>
+              <li>listen first</li>
+              <li>challenge ideas respectfully</li>
+              <li>ask to understand</li>
+              <li>speak to each other with respect</li>
+            </ul>
+            <p>
+              Lastly, we recommend that you take turns doing the flipping. This will give quieter voices a chance to enter the conversation and newer voices a chance to lead.
+            </p>
           </div>
         </div>
         <div
