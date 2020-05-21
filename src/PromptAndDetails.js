@@ -7,20 +7,20 @@ class PromptAndDetails extends React.Component {
     html.style.backgroundColor = randomColor;
 
     return (
-      <div style={{ backgroundColor: "white" }} className="promptbox">
+      <div>
         <div
-          className="fadeIn"
+          className="fadeIn promptBox"
           key={Math.random()}
-          style={{ color: randomColor }}
+          style={{ color: randomColor, backgroundColor: "white" }}
         >
-          <h1 id="prompt">"{this.props.prompt}"</h1>
-          <h5 id="details">
-            -{this.props.details ? this.props.details : "Unknown"}-
-          </h5>
+          <h1 className="prompt">“{this.props.prompt}”</h1>
+          <p className="promptDetails">
+            {this.props.details ? this.props.details : ""}
+          </p>
         </div>
         <button
           style={{ backgroundColor: randomColor }}
-          id="newprompt"
+          className="newPromptButton"
           onClick={this.props.handleClick}
         >
           New prompt
