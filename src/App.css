@@ -13,7 +13,7 @@ html {
 }
 body {
   /* font-family: 'Roboto', sans-serif; */
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin: 0;
 }
 * {
@@ -36,12 +36,15 @@ body {
 }
 .prompt {
   background-color: white;
-  /* border-radius: 1rem; */
-  box-shadow: 0.5rem 0.875rem rgba(0,0,0,0.5);
-  margin-bottom: 16rem;
-  margin-top: 3rem;
+  border-radius: 0.1rem;
+  box-shadow: 0.2rem 0.2rem rgba(0,0,0,0.5);
+  margin-bottom: 6rem;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
   padding: 1.5rem;
   width: 100%;
+  max-width: 900px;
 }
 @media screen and (min-width: 600px) {
   .prompt {
@@ -65,20 +68,19 @@ body {
   align-self: center;
   background-color: rgba(0,0,0,.75);
   border: none;
-  /* border-radius: 999px; */
+  border-radius: 999px; 
   bottom: 2rem;
   color: white;
   cursor: pointer;
-  font-family: 'Roboto Condensed', sans-serif;
-  font-size: 1rem;
-  font-style: italic;
+  font-family: 'Roboto', sans-serif;
+  font-size: .8rem;
   font-weight: 700;
-  height: 3rem;
-  line-height: 3rem;
-  margin: 0 0 1.5rem;
+  height: 2rem;
+  line-height: 2rem;
+  margin: 0 0 1rem;
   padding: 0 1.5rem;
   position: fixed;
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
 }
 .newPromptButton:focus,
 .newPromptButton:hover {
