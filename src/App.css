@@ -78,6 +78,7 @@ body {
   height: 3rem;
   line-height: 3rem;
   margin: 0 0 1.5rem;
+  mix-blend-mode: screen;
   padding: 0 1.5rem;
   position: fixed;
   /*text-transform: capitalize;*/
@@ -123,7 +124,7 @@ body {
   }
 }
 .gradientFlow {
-  animation: flow 30s ease-in-out infinite;
+  animation: flow 20s ease-in-out infinite;
   background: linear-gradient(-60deg, #904e95, #904e95, #e73c7e, #ee7752);
   background-size: 300%;
 }
