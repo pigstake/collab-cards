@@ -7,7 +7,7 @@ const cards=[
   "details": "You chose today to work on it. What is special about this moment in time?"
   }, {
   "prompt": "How would you describe it to a 5-year-old?",
-  "details": "Use this as an opportunity to think about what you're doing the simplest terms possible. Is everyone on the same page?"
+  "details": "Use this as an opportunity to think about what you're doing in the simplest terms possible. Is everyone on the same page?"
   }, {
   "prompt": "Create a mission statement.",
   "details": "Spend time silently drafting a mission statement for it. Then, read your statement to the group. Do you share a vision?"
@@ -37,7 +37,7 @@ const cards=[
   "details": "Is it possible to make it more equitable? Could it ever be entirely equitable?"
   }, {
   "prompt": "What if it built trust?",
-  "details": "How could this tool strengthen trust between all parties?"
+  "details": "How might it strengthen trust between all parties?"
   }, {
   "prompt": "What if not everyone had to like it?",
   "details": "Are any unnecessary constraints getting in your way?"
@@ -64,7 +64,7 @@ const cards=[
   "details": "Use this time to close your eyes, meditate, stretch, or rest. "
   }, {
   "prompt": "What if you had no control over how it was used?",
-  "details": "Imagine that you gave up control of it. What benefits could come from that experience for you? For the User?"
+  "details": "Imagine that you gave up control of it. What benefits could come from that experience for you? For the user?"
   }, {
   "prompt": "What if you valued quality over quantity?",
   "details": "Does it need to be big? Does it need to be frequent? Does it need to be loud?"
