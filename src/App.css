@@ -39,8 +39,15 @@ body {
   /* border-radius: 1rem; */
   box-shadow: 0.5rem 0.875rem rgba(0,0,0,0.5);
   margin-bottom: 16rem;
+  margin-top: 3rem;
   padding: 1.5rem;
   width: 100%;
+}
+@media screen and (min-width: 600px) {
+  .prompt {
+    margin-bottom: 12rem;
+    margin-top: 4.5rem;
+  }
 }
 .promptHeading {
   font-family: 'Bree Serif', serif;
@@ -79,7 +86,7 @@ body {
 }
 @media screen and (min-width: 600px) {
   .newPromptButton {
-    position: relative;
+    top: 3rem;
   }
 }
 .fadeIn {
