@@ -11,19 +11,18 @@ class PromptAndDetails extends React.Component {
         <div
           className="fadeIn prompt"
           key={Math.random()}
-          style={{ color: randomColor, backgroundColor: "white", borderColor: randomColor}}
+          style={{ color: randomColor, borderColor: randomColor}}
         >
-          <h1 className="promptHeading">“{this.props.prompt}”</h1>
+          <h1 className="promptHeading">{this.props.prompt}</h1>
           <p className="promptDetails">
             {this.props.details ? this.props.details : ""}
           </p>
         </div>
         <button
-          style={{ backgroundColor: randomColor }}
           className="newPromptButton"
           onClick={this.props.handleClick}
         >
-          New prompt
+          Deal a new prompt
         </button>
       </div>
     );
