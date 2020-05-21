@@ -7,7 +7,7 @@ const cards=[
   "details": "You chose today to work on it. What is special about this moment in time?"
   }, {
   "prompt": "How would you describe it to a 5-year-old?",
-  "details": "Use this as an opportunity to think about what you're doing the simplest terms possible. Is everyone on the same page?"
+  "details": "Use this as an opportunity to think about what you're doing in the simplest terms possible. Is everyone on the same page?"
   }, {
   "prompt": "Create a mission statement.",
   "details": "Spend time silently drafting a mission statement for it. Then, read your statement to the group. Do you share a vision?"
@@ -37,7 +37,7 @@ const cards=[
   "details": "Is it possible to make it more equitable? Could it ever be entirely equitable?"
   }, {
   "prompt": "What if it built trust?",
-  "details": "How could this tool strengthen trust between all parties?"
+  "details": "How might it strengthen trust between all parties?"
   }, {
   "prompt": "What if not everyone had to like it?",
   "details": "Are any unnecessary constraints getting in your way?"
@@ -64,13 +64,28 @@ const cards=[
   "details": "Use this time to close your eyes, meditate, stretch, or rest. "
   }, {
   "prompt": "What if you had no control over how it was used?",
-  "details": "Imagine that you gave up control of it. What benefits could come from that experience for you? For the User?"
+  "details": "Imagine that you gave up control of it. What benefits could come from that experience for you? For the user?"
   }, {
   "prompt": "What if you valued quality over quantity?",
   "details": "Does it need to be big? Does it need to be frequent? Does it need to be loud?"
   }, {
   "prompt": "Is it accessible?",
   "details": "Think about who might not be able to use it. Could you make some changes so that it works for more people?"
+  }, {
+  "prompt": "What if it allowed you to reflect on your decisions?",
+  "details": "Does it already provide an opportunity for reflection? Could it?"
+  }, {
+  "prompt": "Reflect on learning something new. ",
+  "details": "What was easy? What was hard?"
+  }, {
+  "prompt": "What if it helped people see themselves in new ways?",
+  "details": "Help others learn and grown by expanding the ways that they see themselves."
+  }, {
+  "prompt": "Write your answers to the next question before sharing them aloud.",
+  "details": "Before answering the next question, take a few moments to jot down your thoughts."
+  }, {
+  "prompt": "What would Oprah have to say about it?",
+  "details": "“When you undervalue what you do, the world will undervalue who you are.” – Oprah Winfrey"
   }
 ]
 export default cards
