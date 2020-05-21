@@ -73,6 +73,10 @@ body {
   position: fixed;
   text-transform: capitalize;
 }
+.newPromptButton:focus,
+.newPromptButton:hover {
+  animation-duration: 1s;
+}
 @media screen and (min-width: 600px) {
   .newPromptButton {
     position: relative;
