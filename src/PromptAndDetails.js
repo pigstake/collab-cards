@@ -8,6 +8,12 @@ class PromptAndDetails extends React.Component {
 
     return (
       <div className="promptContainer">
+        <button
+          className="newPromptButton gradientFlow"
+          onClick={this.props.handleClick}
+        >
+          Deal a Collab Card
+        </button>
         <div
           className="fadeIn prompt"
           key={Math.random()}
@@ -18,12 +24,6 @@ class PromptAndDetails extends React.Component {
             {this.props.details ? this.props.details : ""}
           </p>
         </div>
-        <button
-          className="newPromptButton"
-          onClick={this.props.handleClick}
-        >
-          Deal a new prompt
-        </button>
       </div>
     );
   }
