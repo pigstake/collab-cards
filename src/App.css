@@ -122,7 +122,8 @@ body {
   z-index: 9;
 }
 .fairPlayButton:focus,
-.fairPlayButton:hover {
+.fairPlayButton:hover,
+.fairPlayButton-input:checked ~ .fairPlayButton {
   background-color: rgba(0,0,0,.875);
   opacity: 1;
   transform: rotate(90deg);
@@ -130,7 +131,7 @@ body {
 .fairPlayButton-input {
   display: none;
 }
-.fairPlayButton-input:checked + .fairPlay {
+.fairPlayButton-input:checked ~ .fairPlay {
   left: 0;
 }
 @media screen and (min-width: 600px) {
