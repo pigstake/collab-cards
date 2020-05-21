@@ -53,7 +53,6 @@ body {
   color: black;
   line-height: 1.375;
   margin: 0 0 1.5rem;
-  mix-blend-mode: difference;
 }
 .newPromptButton {
   align-self: center;
