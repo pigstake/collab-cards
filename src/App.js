@@ -30,12 +30,11 @@ class App extends React.Component {
   };
 
   randomColor() {
-    const color = `rgb(
-      ${Math.floor(Math.random() * 155)},
-      ${Math.floor(Math.random() * 155)},
-      ${Math.floor(Math.random() * 155)})`;
-    return color;
-  }
+    var colors = ['234,181,54']
+    
+    const color = colors[Math.floor(Math.random() * colors.length)];
+    return `rgb(color)`;
+  } 
 
   render() {
     return (
